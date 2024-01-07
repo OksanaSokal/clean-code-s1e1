@@ -104,10 +104,6 @@ button {
   margin: 0 0 20px;
 }
 
-.add-task__new-task {
-  width: 318px;
-}
-
 /* Task list */
 .item {
   overflow: hidden;
@@ -149,8 +145,8 @@ button {
 }
 
 /* Completed */
-.completed-tasks__text-field,
-.completed-tasks__name {
+.completed-tasks__list .text-field,
+.completed-tasks__list .name-task {
   text-decoration: line-through;
   color: #888;
 }
@@ -158,6 +154,11 @@ button {
 /* Edit Task */
 .text-field {
   display: none;
+}
+
+.add-task__new-task {
+  width: 318px;
+  display: block;
 }
 
 .item.edit-mode .text-field {
